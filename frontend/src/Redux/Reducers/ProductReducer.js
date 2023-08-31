@@ -1,7 +1,5 @@
 import { CARTDATA, FILTER, PRODUCT_ERROR , PRODUCT_LODING ,PRODUCT_SUCCESS , SORT_NAME_ASS , SORT_NAME_DISS , SORT_PRICE_H_TO_L , SORT_PRICE_L_TO_H , SORT_RATING_H_TO_L , SORT_RATING_L_TO_H  } from "../Actions/ProductAction";
 
-
-
 const InitialState = {
     isLoding:false,
     Data :[],
@@ -9,6 +7,7 @@ const InitialState = {
     filterData : [],
     cartDataGet : []
 }
+
 
 export const productReducer = (store = InitialState , {type , payload})=>{
     switch(type){

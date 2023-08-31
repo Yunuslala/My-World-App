@@ -1,4 +1,4 @@
-import {createStore} from "redux"
+import {legacy_createStore} from "redux"
 import {productReducer} from "./Reducers/ProductReducer"
 import thunk from "redux-thunk"
 import { combineReducers  } from "redux"
@@ -13,4 +13,4 @@ const rootReducer = combineReducers({
     LoginFatch : Loginreducer
 })
 
-export const  store = createStore(rootReducer , applyMiddleware(thunk))
+export const  store = legacy_createStore(rootReducer , applyMiddleware(thunk))

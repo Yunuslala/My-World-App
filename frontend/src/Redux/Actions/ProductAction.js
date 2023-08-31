@@ -27,7 +27,7 @@ export const cart_data = (payload) =>({type:CARTDATA , payload})
 
 export  const GetData = ()=>(Dispatch)=>{
     Dispatch(product_loding())
-   axios.get("https://myworldfirst.herokuapp.com/product").then((res)=>{
+   axios.get("http://localhost:6600/product/get").then((res)=>{
    Dispatch(product_success(res.data))
    }).catch((err)=>{
        Dispatch(product_error())

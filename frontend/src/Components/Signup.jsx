@@ -23,7 +23,7 @@ export default function SignUp() {
       fullName:"",
       password:"",
       email:"",
-      Contect:""
+      Contact:""
 
     });
 
@@ -108,8 +108,8 @@ export default function SignUp() {
                   fullWidth
                   onChange={Data}
                   id="Contect"
-                  label="Contect"
-                  name="Contect"
+                  label="Contact"
+                  name="Contact"
                   autoComplete="family-name"
                 />
               </Grid>

@@ -13,7 +13,7 @@ const CatagaryPage = () => {
   
   useEffect(() => {
     axios
-      .get("https://myworldfirst.herokuapp.com/product")
+      .get("http://localhost:6600/product/get")
       .then((res) =>
         setstate([...res.data.filter((el) => el.category === category)])
         );

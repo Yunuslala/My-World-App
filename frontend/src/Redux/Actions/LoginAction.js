@@ -15,7 +15,7 @@ export const logout = () =>({ type: LOGOUT })
 
 export const LoginData = (login ,notify1 , notify2)=>(Dispatch)=>{
     Dispatch(loginPanding())
-    axios.post("https://myworldfirst.herokuapp.com/login" , login).then((res)=>{
+    axios.post("http://localhost:6600/User/login" , login).then((res)=>{
         notify1()
         setTimeout(() => {
             Dispatch(loginSuccess(res.data.user)) 

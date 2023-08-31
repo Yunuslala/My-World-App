@@ -11,6 +11,7 @@ import { cart_data } from '../Redux/Actions/ProductAction';
 
 
 const Singlepage = () => {
+
  const [state, setstate] = useState({});
      const {id} = useParams()
      
@@ -18,7 +19,9 @@ const Singlepage = () => {
      const Dispatch = useDispatch();
    
      useEffect(() => {
-         axios.get(`https://myworldfirst.herokuapp.com/product/${id}`).then((res)=>{
+      console.log("id",id)
+         axios.get(`http://localhost:6600/product/get/${id}`).then((res)=>{
+          console.log("singlePage",res.data)
               setstate(res.data)
 
          })
