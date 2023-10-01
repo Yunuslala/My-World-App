@@ -15,10 +15,11 @@ export const logout = () =>({ type: LOGOUT })
 
 export const LoginData = (login ,notify1 , notify2)=>(Dispatch)=>{
     Dispatch(loginPanding())
-    axios.post("http://localhost:6600/User/login" , login).then((res)=>{
+    axios.post("https://good-pink-cougar-garb.cyclic.app/User/login" , login).then((res)=>{
         notify1()
         setTimeout(() => {
-            Dispatch(loginSuccess(res.data.user)) 
+            Dispatch(loginSuccess(res.data.user));
+            localStorage.setItem("userToken",res.data.token);
         }, 3000);
     }).catch((err)=>{
         setTimeout(() => {

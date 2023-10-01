@@ -13,7 +13,7 @@ const CatagaryPage = () => {
   
   useEffect(() => {
     axios
-      .get("http://localhost:6600/product/get")
+      .get("https://good-pink-cougar-garb.cyclic.app/product/get")
       .then((res) =>
         setstate([...res.data.filter((el) => el.category === category)])
         );

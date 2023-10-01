@@ -12,7 +12,7 @@ export const signupSuccess = (paylod) =>({type:SIGNUP_SUCCESS , paylod})
 
 export const SignupData = (signup)=>(Dispatch)=>{
     Dispatch(signupPanding())
-    axios.post("http://localhost:6600/User/signup" , signup).then((res)=>{
+    axios.post("https://good-pink-cougar-garb.cyclic.app/User/signup" , signup).then((res)=>{
         alert("signup Success")
         Dispatch(signupSuccess(res.data.user))
     }).catch((err)=>{
