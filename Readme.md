@@ -47,8 +47,6 @@ the home, product, and cart page.
 ![Screenshot (175)](https://github.com/Yunuslala/My-World-App/assets/112767616/50a2b6c9-235e-41bb-866f-0b826530d8d4)
 #Product Page
 ![Screenshot (170)](https://github.com/Yunuslala/My-World-App/assets/112767616/90d0457e-4d08-4e36-b4fe-e315e68f119d)
-#single Product Page
-![App Screenshot](./public/Screenshot%20(1332).png)
 #Cart Page
 ![Screenshot (171)](https://github.com/Yunuslala/My-World-App/assets/112767616/e3a9d544-363d-4e75-89bd-379198623e95)
 #SinglePage
