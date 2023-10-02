@@ -2,10 +2,10 @@
 # MyWorld.com
 A web application for Ecommarce business.
 
-## Base Api End-Point
+## Base Api End-Point of backend route
 ### https://good-pink-cougar-garb.cyclic.app
 
-## Swagger Documentation
+## Swagger Documentation of backend routes
 ### https://good-pink-cougar-garb.cyclic.app/e-commerce-api-docs
 
 # disc- 
