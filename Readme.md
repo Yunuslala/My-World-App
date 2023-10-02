@@ -2,6 +2,12 @@
 # MyWorld.com
 A web application for Ecommarce business.
 
+## Base Api End-Point
+### https://good-pink-cougar-garb.cyclic.app
+
+## Swagger Documentation
+### https://good-pink-cougar-garb.cyclic.app/e-commerce-api-docs
+
 # disc- 
 full Functionalities by using MERN stack. made by me in 5 days.  
 
